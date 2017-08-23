@@ -1,0 +1,6 @@
+authors: 
+  t1: Test User; test
+  t2: Test User Two; test2
+  t3: Test User Three; test3
+email:
+  domain: testuser.com
