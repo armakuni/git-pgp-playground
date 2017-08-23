@@ -4,7 +4,7 @@ gpg --import public.txt
 gpg --import master.key
 
 git init test_repo
-cd pushd test_repo
+pushd test_repo
 
 git config user.name 'Test User'
 git config user.email 'test@testuser.com'
@@ -32,3 +32,5 @@ git commit -S -m "Fifth Commit"
 echo 'Sixth Commit' >> README.md
 git add .
 git commit -S -m "Sixth Commit"
+
+popd 
