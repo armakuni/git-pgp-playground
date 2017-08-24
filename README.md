@@ -181,10 +181,10 @@ Test User 3 solo's and then uses the `git rebase -i --exec` command to run a com
 information. 
 
 ```
-
+git rebase -i --exec 'git duet-commit --amend --reset-author -S' [COMMIT HASH]
 ```  
 
-Rebase output, note we choose to squash commit 8 into commit. 
+Rebase output, note we choose to squash commit 8 into commit 7 . 
 
 ```
 pick 7fe6013 Commit Seven
